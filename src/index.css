@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap");
+@import "tailwindcss";
+@theme {
+  /* paletas de cores */
+
+  /* cor de fundo primaria */
+  --color-bg-primary: #F2F4EF;
+
+  /* cor de transição */
+  --color-bg-transition: #E3E8DE;
+
+  /* cor de brilho */
+  --color-bright: #fdfcf0;
+
+  /* cor de butões, icones, logotipos e titulos principais */
+  --color-primary: #5E6738;
+
+  --color-hover-primary: #4A522C;
+
+  /* cor dos textos principais */
+  --color-text-primary: #1F2937;
+
+  /* cor dos textos secundarios */
+  --color-text-secondary: #6B7280;
+
+  /* cor do rodapé */
+  --color-footer: #1E2318;
+
+  /* cor de fundo dos formulários */
+  --color-form-bg: #2a2a2a;
+
+  /* fontes */
+
+  /* fonte dos Noivos/Títulos (parisienne) */
+  --font-primary: "Parisienne", cursive;
+
+  /* fonte dos textos (poppins) */
+  --font-secondary: "Poppins", sans-serif;
+
+  --tracking-wide: -0.07em;
+}
+
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--sage-white); }
+::-webkit-scrollbar-thumb { background: var(--olive); border-radius: 10px; }
