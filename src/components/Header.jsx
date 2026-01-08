@@ -6,9 +6,11 @@ function Header() {
         {/* --- LOGO --- */}
         <div>
           {/* Logo diminui no celular (text-3xl) e cresce no PC (text-5xl) */}
-          <h1 className="text-primary font-extrabold font-primary text-3xl md:text-5xl cursor-pointer tracking-wide hover:tracking-normal transition-all">
+          <a href="#hero">
+            <h1 className="text-primary font-extrabold font-primary text-3xl md:text-5xl cursor-pointer tracking-wide hover:tracking-normal transition-all">
             C & G
           </h1>
+          </a>
         </div>
 
         {/* --- ÁREA DA DIREITA --- */}

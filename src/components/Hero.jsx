@@ -3,7 +3,7 @@ import banner from "../assets/banner.jpg";
 function Hero() {
   return (
     // 1. CONTAINER PAI: Define o tamanho da seção e organiza tudo
-    <div className="relative w-full h-[68vh] md:h-[90vh] flex flex-col items-center justify-center">
+    <div id="hero" className="relative w-full h-[90vh] md:h-[90vh] flex flex-col items-center justify-center">
       
       {/* 2. CAMADA DA IMAGEM (Com a máscara) */}
       {/* Esta div é 'absolute' para ficar no fundo. A máscara só afeta ELA. */}
@@ -23,7 +23,7 @@ function Hero() {
 
       <div>
         {/* Aqui apliquei a cor verde oliva (#556B2F) que você queria antes, mas pode manter text-black se preferir */}
-        <p className="text-primary font-secondary mt-120 md:text-3xl md:mt-200 font-semibold [text-shadow:1px_1px_2px_rgb(255_255_255/50%)]">
+        <p className="text-primary font-secondary mt-160 md:text-3xl md:mt-200 font-semibold [text-shadow:1px_1px_2px_rgb(255_255_255/50%)]">
           21 de Abril de 2027 - Campo Grande, RJ
         </p>
       </div>
