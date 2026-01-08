@@ -38,7 +38,7 @@ function Header() {
             </a>
           </div>
 
-          <div className="h-4 w-0.5 bg-primary/30"></div>
+          <div className="hidden md:flex h-4 w-0.5 bg-primary/30"></div>
 
           {/* BOTÃO CONFIRMAR (Aparece Sempre) */}
           {/* No celular ele fica sozinho. No PC ele fica ao lado do menu */}
