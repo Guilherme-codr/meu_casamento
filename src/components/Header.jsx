@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md shadow-sm bg-white/90">
+    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md shadow-sm bg-bg-primary/90">
       {/* CONTAINER PRINCIPAL: Padding responsivo (px-4 no celular, px-8 no PC) */}
       <div className="flex items-center justify-between w-full py-4 px-4 md:px-8">
         {/* --- LOGO --- */}
@@ -21,7 +21,7 @@ function Header() {
             >
               Nossa História
             </a>
-            <div className="h-4 w-px bg-primary/30"></div>{" "}
+            <div className="h-4 w-0.5 bg-primary/30"></div>
             {/* Divisória sutil */}
             <a
               href="#evento"
@@ -29,7 +29,7 @@ function Header() {
             >
               O Evento
             </a>
-            <div className="h-4 w-px bg-primary/30"></div>
+            <div className="h-4 w-0.5 bg-primary/30"></div>
             <a
               href="#presentes"
               className="text-text-secondary font-secondary hover:text-primary transition"
@@ -37,6 +37,8 @@ function Header() {
               Presentes
             </a>
           </div>
+
+          <div className="h-4 w-0.5 bg-primary/30"></div>
 
           {/* BOTÃO CONFIRMAR (Aparece Sempre) */}
           {/* No celular ele fica sozinho. No PC ele fica ao lado do menu */}
