@@ -7,6 +7,8 @@ function Hero() {
       // 3. Inline style para carregar a imagem importada
       style={{ backgroundImage: `url(${banner})` }}
     >
+        <div className="absolute inset-0 bg-black/60 md:bg-black/45"></div>
+
       {/* informações do hero */}
       <div className="relative z-20 text-center">
         <h1 className="text-primary font-primary font-bold text-5xl md:text-9xl [text-shadow:1px_1px_2px_rgb(0_0_0/80%)]">
