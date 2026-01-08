@@ -10,11 +10,43 @@ function Header() {
           </h1>
         </div>
 
-        {/* Botão */}
-        <div className="mr-3">
-          <button className="bg-primary hover:bg-hover-primary text-white font-bold font-secondary py-2 px-4 rounded-full">
-            Confirmar Presença
-          </button>
+        {/* botões */}
+        <div className="mr-8 flex items-center gap-2">
+          {/* botao para historia */}
+          <div className="">
+            <button className="text-text-secondary font-secondary rounded-full cursor-pointer">
+              <a href="#historia">Nossa Historia</a>
+            </button>
+          </div>
+
+          <div className="h-6 w-0.5 bg-primary"></div>
+
+          {/* botão para o evento */}
+          <div className="">
+            <button className="text-text-secondary font-secondary rounded-full cursor-pointer">
+              <a href="#evento">O evento</a>
+            </button>
+          </div>
+
+          {/* linha divisória */}
+          <div className="h-6 w-0.5 bg-primary"></div>
+
+          {/* botao para presentes */}
+          <div className="">
+            <button className="text-text-secondary font-secondary rounded-full cursor-pointer">
+              <a href="#presentes">Presentes</a>
+            </button>
+          </div>
+
+          {/* linha divisória */}
+          <div className="h-6 w-0.5 bg-primary"></div>
+
+          {/* confirmar presença */}
+          <div>
+            <button className="text-primary font-secondary rounded-full cursor-pointer">
+              <a href="#Confirmar">Confirmar Presença</a>
+            </button>
+          </div>
         </div>
       </div>
     </header>

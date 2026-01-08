@@ -4,27 +4,27 @@
   /* paletas de cores */
 
   /* cor de fundo primaria */
-  --color-bg-primary: #F2F4EF;
+  --color-bg-primary: #f2f4ef;
 
   /* cor de transição */
-  --color-bg-transition: #E3E8DE;
+  --color-bg-transition: #e3e8de;
 
   /* cor de brilho */
   --color-bright: #fdfcf0;
 
   /* cor de butões, icones, logotipos e titulos principais */
-  --color-primary: #5E6738;
+  --color-primary: #5e6738;
 
-  --color-hover-primary: #4A522C;
+  --color-hover-primary: #4a522c;
 
   /* cor dos textos principais */
-  --color-text-primary: #1F2937;
+  --color-text-primary: #1f2937;
 
   /* cor dos textos secundarios */
-  --color-text-secondary: #6B7280;
+  --color-text-secondary: #6b7280;
 
   /* cor do rodapé */
-  --color-footer: #1E2318;
+  --color-footer: #1e2318;
 
   /* cor de fundo dos formulários */
   --color-form-bg: #2a2a2a;
@@ -40,7 +40,13 @@
   --tracking-wide: -0.07em;
 }
 
-
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: var(--sage-white); }
-::-webkit-scrollbar-thumb { background: var(--olive); border-radius: 10px; }
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--sage-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--olive);
+  border-radius: 10px;
+}
