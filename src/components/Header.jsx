@@ -17,13 +17,6 @@ function Header() {
         <div className="flex items-center gap-4">
           {/* MENU DE LINKS (Só aparece no PC -> hidden md:flex) */}
           <div className="hidden md:flex items-center gap-4">
-            <a
-              href="#historia"
-              className="text-text-secondary font-secondary hover:text-primary transition"
-            >
-              Nossa História
-            </a>
-            <div className="h-4 w-0.5 bg-primary/30"></div>
             {/* Divisória sutil */}
             <a
               href="#evento"
@@ -36,7 +29,7 @@ function Header() {
               href="#presentes"
               className="text-text-secondary font-secondary hover:text-primary transition"
             >
-              Presentes
+             Lista Presentes
             </a>
           </div>
 

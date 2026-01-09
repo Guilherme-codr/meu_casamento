@@ -6,6 +6,9 @@
   /* cor de fundo primaria */
   --color-bg-primary: #f2f4ef;
 
+  /* cor do fundo card */
+  --color-bg-card: #eff5ec;
+
   /* cor de transição */
   --color-bg-transition: #e3e8de;
 
@@ -21,7 +24,7 @@
   --color-text-primary: #3e3e3a;
 
   /* cor dos textos secundarios */
-  --color-text-secondary: #8b857a;
+  --color-text-secondary: #7a756b;
 
   /* cor do rodapé */
   --color-footer: #1e2318;
