@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "./components/header.jsx";
 import Hero from "./components/hero.jsx";
 import Grande_Dia from "./components/Grande_Dia.jsx";
+import Lista_Presentes from "./components/Lista_Presentes.jsx";
 
 function App() {
   useEffect(() => {
@@ -17,8 +18,11 @@ function App() {
       <Header />
       <Hero />
 
-      <section className="py-32 px-6 max-w-5xl mx-auto scroll-mt">
+      <section className="py-32 px-6 w-full h-full  scroll-mt">
         <Grande_Dia />
+      </section>
+      <section className="py-24 px-6 w-full h-full scroll-mt ">
+        <Lista_Presentes />
       </section>
     </div>
   );

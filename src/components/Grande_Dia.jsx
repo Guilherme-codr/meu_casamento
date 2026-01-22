@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import BoloCasamentoIcon from "./BoloCasamentoIcon";
+import BoloCasamentoIcon from "../assets/BoloCasamentoIcon";
+import DressCodeIcon from "../assets/DressCodeIcon";
+import CerimoniaIcon from "../assets/CerimoniaIcon";
 
 function Grande_Dia() {
   return (
@@ -29,8 +31,8 @@ function Grande_Dia() {
         <div className="pt-29 grid grid-cols-1 md:grid-cols-3 gap-12 justify-center items-center cursor-default">
           <div className=" bg-bg-card  p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all duration-500">
             <div className="flex flex-col justify-center items-center">
-              <div className="text-olive mb-3 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
-                🌿
+              <div className="text-olive mb-1 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
+                <CerimoniaIcon className="w-16 h-16" />
               </div>
               <h3 className="text-2xl mb-1 serif font-semibold italic text-primary">
                 Cerimônia
@@ -78,18 +80,17 @@ function Grande_Dia() {
           >
             <div className=" bg-bg-card p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all duration-500">
               <div className="flex flex-col justify-center items-center">
-                <div className="text-olive mb-3 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
-                  🌿
+                <div className="text-olive mb-1 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
+                  <DressCodeIcon className="w-16 h-16" />
                 </div>
-                <h3 className="text-2xl mb-1 serif font-semibold italic text-primary">
+                <h3 className="text-2xl serif font-semibold italic text-primary">
                   Dress Code
                 </h3>
-                <p className="text-text-secondary leading-relaxed">
+                <p className="text-text-primary leading-relaxed font-bold ">
                   Esporte Fino
                 </p>
                 <p className="text-text-secondary text-sm italic leading-relaxed">
-                  Pedimos gentilmente que
-                  evitem o branco e o verde oliva.
+                  Pedimos gentilmente que evitem o branco e o verde oliva.
                 </p>
               </div>
             </div>
