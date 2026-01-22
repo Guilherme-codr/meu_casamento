@@ -15,7 +15,7 @@ function Grande_Dia() {
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        <h1 className="flex font-primary text-text-primary text-4xl md:text-8xl font-semibold">
+        <h1 className="flex font-primary text-text-primary sm:text-2xl text-4xl md:text-8xl font-semibold">
           O Grande Dia
         </h1>
       </motion.div>
