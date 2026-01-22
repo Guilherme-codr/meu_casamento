@@ -12,8 +12,8 @@ function Lista_Presentes() {
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        <h1 className="flex font-primary text-text-primary text-2xl md:text-8xl font-bold">
-          Sugestões de Presentes
+        <h1 className="flex font-primary text-text-primary text-4xl md:text-8xl font-bold">
+          Lista de Presentes
         </h1>
       </motion.div>
 
