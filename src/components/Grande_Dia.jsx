@@ -15,7 +15,7 @@ function Grande_Dia() {
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        <h1 className="flex font-primary text-text-primary sm:text-2xl text-4xl md:text-8xl font-semibold">
+        <h1 className="flex font-primary text-text-primary text-4xl md:text-8xl font-semibold">
           O Grande Dia
         </h1>
       </motion.div>
@@ -29,9 +29,9 @@ function Grande_Dia() {
         transition={{ duration: 1, delay: 0.2 }}
       >
         <div className="pt-29 grid grid-cols-1 md:grid-cols-3 gap-12 justify-center items-center cursor-default">
-          <div className=" bg-bg-card  p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all duration-500">
+          <div className=" bg-bg-card  p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all hover:shadow-2xl hover:-translate-y-2 duration-500">
             <div className="flex flex-col justify-center items-center">
-              <div className="text-olive mb-1 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
+              <div className="text-olive mb-1 flex justify-center text-4xl">
                 <CerimoniaIcon className="w-16 h-16" />
               </div>
               <h3 className="text-2xl mb-1 serif font-semibold italic text-primary">
@@ -52,9 +52,9 @@ function Grande_Dia() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <div className=" bg-bg-card  p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all duration-500">
+            <div className=" bg-bg-card  p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all hover:shadow-2xl hover:-translate-y-2 duration-500">
               <div className="flex flex-col justify-center items-center">
-                <div className="text-olive mb-3 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
+                <div className="text-olive mb-3 flex justify-center text-4xl">
                   <BoloCasamentoIcon className="w-16 h-16" />
                 </div>
                 <h3 className="text-2xl mb-1 serif font-semibold italic text-primary">
@@ -78,9 +78,9 @@ function Grande_Dia() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            <div className=" bg-bg-card p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all duration-500">
+            <div className=" bg-bg-card p-12 rounded-[3rem] shadow-sm border border-[#5E6738]/5 group hover:border-olive/20 transition-all hover:shadow-2xl hover:-translate-y-2 duration-500">
               <div className="flex flex-col justify-center items-center">
-                <div className="text-olive mb-1 flex justify-center text-4xl transform group-hover:scale-110 transition-transform">
+                <div className="text-olive mb-1 flex justify-center text-4xl">
                   <DressCodeIcon className="w-16 h-16" />
                 </div>
                 <h3 className="text-2xl serif font-semibold italic text-primary">

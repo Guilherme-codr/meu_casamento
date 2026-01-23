@@ -4,15 +4,16 @@ function Lista_Presentes() {
   return (
     <section
       id="presentes"
-      className="relative flex flex-wrap justify-center items-center scroll-mt"
+      className="relative flex flex-wrap justify-center h-full items-center scroll-mt"
     >
-      <motion.div
+     <div>
+       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        <h1 className="flex font-primary text-text-primary sm:text-2xl text-4xl md:text-8xl font-bold">
+        <h1 className="flex font-primary text-text-primary text-4xl md:text-8xl font-bold">
           Lista de Presentes
         </h1>
       </motion.div>
@@ -24,12 +25,13 @@ function Lista_Presentes() {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 1, delay: 0.7 }}
       >
-        <div className="pt-4 md:pt-14 max-w-4xl text-center">
+        <div className="pt-4 md:pt-14 max-w-4xl justify-center text-center">
           <p className="text-text-secondary leading-relaxed text-lg md:text-xl">
             Pensamos com carinho em algumas sugestões para essa nova etapa
           </p>
         </div>
       </motion.div>
+     </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-12 w-full h-full">
         
