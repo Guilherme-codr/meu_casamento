@@ -7,7 +7,7 @@ function Grande_Dia() {
   return (
     <section
       id="evento"
-      className="relative flex flex-wrap justify-center items-center md:py-20 px-6 max-w-5xl mx-auto scroll-mt"
+      className="relative flex flex-wrap justify-center items-center md:py-20 px-6 max-w-5xl mx-auto scroll-mt-20 md:scroll-mt-40"
     >
       <motion.div
         initial={{ opacity: 0, y: 100 }}

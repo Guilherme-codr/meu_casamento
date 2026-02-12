@@ -4,7 +4,7 @@ function Lista_Presentes() {
   return (
     <section
       id="presentes"
-      className="relative flex flex-wrap justify-center h-full items-center scroll-mt"
+      className="relative flex flex-wrap justify-center h-full items-center scroll-mt-20 md:scroll-mt-40 py-20"
     >
      <div>
        <motion.div

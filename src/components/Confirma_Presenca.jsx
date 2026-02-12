@@ -13,7 +13,7 @@ function Confirma_Presenca() {
   return (
     <section
       id="Confirmar"
-      className="relative flex flex-wrap justify-center items-center scroll-mt py-20"
+      className="relative flex flex-wrap justify-center items-center scroll-mt-20 md:scroll-mt-40 py-20"
     >
       <div className="text-center space-y-6">
         <h1 className="flex text-center justify-center font-primary text-white text-4xl md:text-8xl font-bold w-full">
@@ -22,7 +22,7 @@ function Confirma_Presenca() {
         <p className="font-bold font-secondary md:text-2xl md:pt-10 text-[#6B7280]">
           Seria uma alegria celebrar esse momento com você!
           <br />
-          Por favor confirme sua presença até dia 12 de dezembro.
+          Por favor, confirme sua presença até dia 12 de dezembro.
         </p>
       </div>
 
