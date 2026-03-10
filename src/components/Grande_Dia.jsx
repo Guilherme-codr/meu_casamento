@@ -7,7 +7,7 @@ function Grande_Dia() {
   return (
     <section
       id="evento"
-      className="relative flex flex-wrap justify-center items-center md:py-20 px-6 max-w-5xl mx-auto scroll-mt-20 md:scroll-mt-40"
+      className="relative flex flex-wrap justify-center items-center md:py-20 px-6 mx-auto scroll-mt-20 md:scroll-mt-40"
     >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -15,7 +15,7 @@ function Grande_Dia() {
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        <h1 className="flex font-primary text-text-primary text-4xl md:text-8xl font-semibold">
+        <h1 className="flex font-primary text-text-primary text-5xl md:text-8xl font-semibold text-center">
           O Grande Dia
         </h1>
       </motion.div>

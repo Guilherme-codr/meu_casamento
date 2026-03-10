@@ -20,17 +20,17 @@ function App() {
       <Header />
       <Hero />
 
-      <section className="py-32 px-6 w-full mx-auto h-full scroll-mt">
+      <section className="py-32 px-6 w-full mx-auto scroll-mt">
         <Grande_Dia />
       </section>
-      <section className="py-24 px-6 w-full mx-auto h-full scroll-mt bg-[#E3E8DE]">
+      <section className="py-24 px-6 w-full mx-auto scroll-mt bg-[#E3E8DE]">
         <Lista_Presentes />
       </section>
-      <section className="py-24 w-full mx-auto h-full scroll-mt bg-[#1E2318]">
+      <section className="py-24 w-full mx-auto scroll-mt bg-[#1E2318]">
         <Confirma_Presenca />
       </section>
 
-      <section className="py-24 w-full mx-auto h-full scroll-mt bg-[#E3E8DE]">
+      <section className="py-24 w-full mx-auto  scroll-mt bg-[#E3E8DE]">
         <Rodape />
       </section>
     </div>
